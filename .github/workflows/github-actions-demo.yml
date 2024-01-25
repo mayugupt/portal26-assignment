@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          pwc
+          pwd
           ls
           ls ../
           python3 ../create_tenant.py mayuresh
