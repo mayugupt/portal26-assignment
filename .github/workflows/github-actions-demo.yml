@@ -1,0 +1,9 @@
+name: Add tenant via GitHub actions
+run-name: ${{ github.actor }} is testing out GitHub Actions tenant creation
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          python3 create_tenant.py mayuresh
