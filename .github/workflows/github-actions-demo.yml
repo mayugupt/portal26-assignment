@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-          python3 create_tenant.py mayuresh
+          python3 ../create_tenant.py mayuresh
